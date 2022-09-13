@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+.Header-Menu{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(./Images/HeaderImage.jpg);
+    
+}
+body{
+    background-color: #ffffff;
+}
+.CompanyName{
+    font-size: 48px;
+    font-family: 'Hammersmith One';
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 256px;
+    top: 96px;
+}
+.Button-Container{
+    position: absolute;
+    right: 192px;
+    top: 96px;
+}
+.Button{
+    font-family: 'Open Sans';
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 96px;
+}
+.Button:hover{
+    border-bottom: 4px solid #2332ff;
+}
+.Tagline-Container{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 786px;
+
+}
+.Tagline{
+    font-family: 'Hammersmith One';
+    font-size: 184px;
+    font-weight: 400;
+    color: #3232ff;
+}
+.QuoteButton{
+    display: inline-block;
+    padding: 48px 128px;
+    background-color: #ffffff;
+    color: #161616;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    margin-top: 96px;
+    transition: 0.2s;
+}
+.QuoteButton:hover{
+    background-color: #ffa000;
+    color: #ffffff;
+}
